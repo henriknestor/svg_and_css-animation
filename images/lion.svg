@@ -2,10 +2,11 @@
 
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg height="800px" width="800px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 512 512"  xml:space="preserve">
+<svg max-height="800px" width="100%" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	   xml:space="preserve">
+<symbol id="lion" viewBox="0 0 512 512">
 <style type="text/css">
-	.st0{fill:#000000;}
+	.st0{fill:#ccc;}
 </style>
 <g>
 	<path class="st0" d="M489.814,298.597c-20.668-24.111-43.333-24.982-59.433-24.982c-17.548,0-34.995,5.496-49.128,15.476
@@ -26,4 +27,5 @@
 		c-1.604,5.266-1.936,10.211-1.932,13.433c-0.004,1.011,0.028,1.946,0.076,2.783H512v-49.393
 		C512,380.394,511.24,323.594,489.814,298.597z"/>
 </g>
+</symbol>
 </svg>
