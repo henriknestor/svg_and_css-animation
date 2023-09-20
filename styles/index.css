@@ -1,0 +1,6 @@
+.red {
+    fill: red;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke: aqua;
+}
