@@ -1,11 +1,13 @@
 body {
-    margin: 0 auto 0;
+    background-color: brown;
 }
-/* Doesn´t work..? */
+
 .content {
-    max-width: 500px;
+    background-color: blueviolet;
+    margin: 0 auto 0;
+    max-width: 1000px;
 }
-/* Doesn´t work..? */
+/* Doesn´t affect the html-generated svgs..? */
 
 .red {
     fill: red;
@@ -20,6 +22,19 @@ body {
 }
 
 .diamond {
-    width: 200px; /* Width doesn´t work..?*/
-    margin: 50px;
+    background-color: aquamarine;
+    max-width: 600px;
+    width: 100%;
+    /* max-width and width don´t affect the html-generated svg..? */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credit-card {
+    background-color: cadetblue;
+    max-width: 600px;
+    width: 100%;
+    /* max-width and width don´t affect the html-generated svg..? */
+    margin-left: auto;
+    margin-right: auto;
 }
