@@ -1,6 +1,25 @@
+body {
+    margin: 0 auto 0;
+}
+/* Doesn´t work..? */
+.content {
+    max-width: 500px;
+}
+/* Doesn´t work..? */
+
 .red {
     fill: red;
     fill-rule: evenodd;
     clip-rule: evenodd;
     stroke: aqua;
+}
+
+.black {
+    background-color: black;
+    height: 47px;
+}
+
+.diamond {
+    width: 200px; /* Width doesn´t work..?*/
+    margin: 50px;
 }

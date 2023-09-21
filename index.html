@@ -8,8 +8,32 @@
     <title>SVG and CSS-animation</title>
 </head>
 <body>
+    <div class="content">
+    <div class="diamond">
+        <svg width="920" height="905" viewbox="0 0 920 905" fill="red" xmlns="http://www.w3.org/2000/svg">
+            <!-- Fill doesn´t work..? -->
+            <polygon points="322.5,550 60,210 160,40 495,40 595,210" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
+            <polyline points="160,45 225,210 322.5,45 430,210 495,45" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
+            <polyline points="60,210 595,210" fill="none" stroke-width="25" stroke="black"/>
+            <polyline points="225,210 322.5,550 430,210" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
+        </svg>
+    </div>
+
+    <svg width="512" height="372" viewbox="0 0 512 372" fill="green" xmlns="http://www.w3.org/2000/svg">
+        <rect width="512" height="372" rx="25" fill="#f0c41b"/>
+        <!-- <rect width="512" height="70" fill="#806f5e" cx="100" cy="256"/> is it possible to move rectangles?-->
+        <line x1="0" y1="80" x2="512" y2="80" style="stroke:rgb(128,111,94);stroke-width:70" />
+        <line x1="52" y1="170" x2="134" y2="170" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+        <circle width="107" height="107" r="40" cx="415" cy="277" fill="#245ea9"/>
+        <circle width="107" height="107" r="40" cx="355" cy="277" fill="#db2215"/>
+
+    </svg>
+
     <svg width="240" height="240" viewbox="0 0 240 240" fill="black" xmlns="http://www.w3.org/2000/svg">
         <circle cx="110" cy="110" r="100" fill="none" stroke-width="20" stroke="#c83"/>
+        <polyline points="70,100 100,140 150,80" fill="none" stroke="#356" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+        <polyline points="80,180 80,90 120,50 170,120" fill="none" stroke="#f90" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
     </svg>
 
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="612px" height="502.174px"  enable-background="new 0 65.326 612 502.174" xml:space="preserve">
@@ -64,6 +88,6 @@
             C512,380.394,511.24,323.594,489.814,298.597z"/>
         </g>
     </svg>
-
+    </div>
 </body>
 </html>
