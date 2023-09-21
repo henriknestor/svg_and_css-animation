@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 width="570px" height="410px"  enable-background="new 0 65.326 612 502.174"
+	 xml:space="preserve">
+	 <symbol id="credit-card" viewBox="-45 -20 570 410">
+            <rect width="512" height="372" rx="25" fill="#f0c41b"/>
+            <line x1="0" y1="80" x2="512" y2="80" style="stroke:rgb(128,111,94);stroke-width:70" />
+            <line x1="52" y1="170" x2="134" y2="170" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="166" y1="170" x2="254" y2="170" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="52" y1="213" x2="65" y2="213" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="96" y1="213" x2="116" y2="213" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="150" y1="213" x2="160" y2="213" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="193" y1="213" x2="215" y2="213" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <line x1="247" y1="213" x2="247" y2="213" style="stroke:rgb(249,234,176);stroke-width:20;stroke-linecap:round" />
+            <circle width="107" height="107" r="40" cx="415" cy="277" fill="#245ea9"/>
+            <circle width="107" height="107" r="40" cx="355" cy="277" fill="#db2215"/>
+	</symbol>
+</svg>

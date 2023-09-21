@@ -2,6 +2,12 @@ body {
     background-color: brown;
 }
 
+p {
+    font-family: sans-serif;
+    font-size:large;
+    margin:0 0 20 20;
+}
+
 .content {
     background-color: blueviolet;
     margin: 0 auto 0;
@@ -21,20 +27,19 @@ body {
     height: 47px;
 }
 
-.diamond {
+.container {
     background-color: aquamarine;
     max-width: 600px;
     width: 100%;
     /* max-width and width don´t affect the html-generated svg..? */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-.credit-card {
-    background-color: cadetblue;
-    max-width: 600px;
+.scaler {
+    background-color: aliceblue;
     width: 100%;
-    /* max-width and width don´t affect the html-generated svg..? */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1500px;
 }
