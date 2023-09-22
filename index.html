@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css"></li>
     <link rel="stylesheet" href="styles/index.css"></li>
-    <title>SVG and CSS-animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">    <title>SVG and CSS-animation</title>
 </head>
 <body>
     <div class="content">
+        <h1>Some CSS-animations <br> and SVG:s</h1>
         <div class="container">
-            <p>SVG created in the html-doc:</p>        
-            <svg width="920" height="580" viewbox="25 0 920 580" fill="red" xmlns="http://www.w3.org/2000/svg">
+            <p>SVG:s created in the html-doc:</p>        
+            <svg width="920" height="580" viewbox="25 0 920 580" fill="red" xmlns="http://www.w3.org/2000/svg" class="scaler">
                 <!-- Fill doesn´t work..? -->
                 <polygon points="322.5,550 60,210 160,40 495,40 595,210" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
                 <polyline points="160,45 225,210 322.5,45 430,210 495,45" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
                 <polyline points="60,210 595,210" fill="none" stroke-width="25" stroke="black"/>
                 <polyline points="225,210 322.5,550 430,210" fill="none" stroke-width="25" stroke="black" stroke-linejoin="round"/>
             </svg>
-        </div>
-
-        <div class="container">
-            <p>SVG created in the html-doc:</p>        
-            <svg width="570" height="410" viewbox="-45 -20 570 410" fill="green" xmlns="http://www.w3.org/2000/svg">
+       
+            <svg width="570" height="410" viewbox="-45 -20 570 410" fill="green" xmlns="http://www.w3.org/2000/svg" class="scaler">
                  <!-- Fill doesn´t work..? -->
                 <rect width="512" height="372" rx="25" fill="#f0c41b"/>
                 <!-- <rect width="512" height="70" fill="#806f5e" cx="100" cy="256"/> is it possible to move rectangles?-->
@@ -38,20 +38,25 @@
                 <circle width="107" height="107" r="40" cx="355" cy="277" fill="#db2215"/>
             </svg>
         </div>
-
-    <!-- I honestly have a hard time seeing the point in creating svgs like this (>_<) it´s very time consuming (as oppose to creating them in e.g. illustrator) and the svgs plays strangely (if all) with the css when creating them in html. I don´t even get them to scale. So what´s the point..? -->
+        <!-- I have a hard time seeing the point in creating svgs like this (>_<) it´s very time consuming (as oppose to creating them in e.g. illustrator) and they play strangely with the css. So what´s the point..? -->
 
         <div class="container">
             <p>SVG:s from document, linked to html:</p>        
-            <svg class="scaler red">
+            <svg class="scaler">
                 <use href="images/diamond.svg#diamond"></use>
             </svg>
-            <svg>
+            <svg class="scaler">
                 <use href="images/credit-card.svg#credit-card"></use>
             </svg>
         </div>
+        <!-- I don´t seem to get these to scale eighter :( -->
 
-        <!-- I don´t seem to get this to scale eighter :( -->
+        <div class="container">
+            <p>SVG:s created in Illustrator</p>
+            <img src="images/diamond-illustrator.svg" alt="diamond" class="scaler">
+            <img src="images/credit-card-illustrator.svg" alt="credit card" class="scaler">
+        </div>
+        <!-- These illustrator-generated SVG:s however, scale beautifully, just the way I want them to :) -->
 
     </div>
 </body>

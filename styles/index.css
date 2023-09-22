@@ -1,11 +1,20 @@
 body {
-    background-color: brown;
+    background-color: rgb(63, 122, 122);
 }
 
 p {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:large;
     margin:0 0 20 20;
+}
+
+h1 {
+    font-family: 'Leckerli One', cursive;
+    color: orange;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: black 5px 5px;
 }
 
 .content {
@@ -29,7 +38,7 @@ p {
 
 .container {
     background-color: aquamarine;
-    max-width: 600px;
+    max-width: 1500px;
     width: 100%;
     /* max-width and width don´t affect the html-generated svg..? */
     margin-left: auto;
@@ -39,7 +48,7 @@ p {
 }
 
 .scaler {
-    background-color: aliceblue;
-    width: 100%;
-    max-width: 1500px;
+    display: inline-block;
+    width: 40%;
+    max-width: 1400px;
 }
