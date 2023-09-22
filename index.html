@@ -12,6 +12,11 @@
 <body>
     <div class="content">
         <h1>Some CSS-animations <br> and SVG:s</h1>
+    
+        <div class="container">
+            <button class="btn-1">Hover me!</button>
+        </div> 
+
         <div class="container">
             <p>SVG:s created in the html-doc:</p>        
             <svg width="920" height="580" viewbox="25 0 920 580" fill="red" xmlns="http://www.w3.org/2000/svg" class="scaler">
@@ -38,7 +43,7 @@
                 <circle width="107" height="107" r="40" cx="355" cy="277" fill="#db2215"/>
             </svg>
         </div>
-        <!-- I have a hard time seeing the point in creating svgs like this (>_<) it´s very time consuming (as oppose to creating them in e.g. illustrator) and they play strangely with the css. So what´s the point..? -->
+        <!-- I have a hard time seeing the point in creating SVG:s like this (>_<) it´s very time consuming (as oppose to creating them in e.g. Illustrator) and they play strangely with the css. So what´s the point..? -->
 
         <div class="container">
             <p>SVG:s from document, linked to html:</p>        
@@ -49,14 +54,14 @@
                 <use href="images/credit-card.svg#credit-card"></use>
             </svg>
         </div>
-        <!-- I don´t seem to get these to scale eighter :( -->
+        <!-- This works better - the class "scaler" seems to affect the viewbox in a better way here which is good. It is however rather confusing to edit the SVG with text - way easier in Illustrator in my opinion. -->
 
         <div class="container">
             <p>SVG:s created in Illustrator</p>
             <img src="images/diamond-illustrator.svg" alt="diamond" class="scaler">
             <img src="images/credit-card-illustrator.svg" alt="credit card" class="scaler">
         </div>
-        <!-- These illustrator-generated SVG:s however, scale beautifully, just the way I want them to :) -->
+        <!-- Here, I´m home :) Creating and editing SVG:s in Illustrator is fast, smooth and accurate. Is there any reason not to choose this method? -->
 
     </div>
 </body>
