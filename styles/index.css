@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(63, 122, 122);
+    background-color: rgb(34, 53, 89);
 }
 
 p {
@@ -11,10 +11,20 @@ p {
 h1 {
     font-family: 'Leckerli One', cursive;
     color: orange;
-    padding-top: 20px;
+    padding: 40px 20px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     text-shadow: black 5px 5px;
+}
+
+h2 {
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .content {
@@ -25,12 +35,9 @@ h1 {
 
 .container {
     background-color: aquamarine;
-    max-width: 1500px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 20px;
     padding: 20px;
+    box-shadow: black 5px 5px;
 }
 
 .scaler {
@@ -54,6 +61,7 @@ h1 {
 }
 
 .btn-1:hover {
+    animation-play-state: paused;
     background-color: blueviolet;
     color: orange;
     cursor: pointer;
@@ -80,6 +88,21 @@ h1 {
     font-size: 25px;
     text-shadow: black 2px 2px;
     animation: mover 2s ease infinite;
+}
+
+.btn-2:hover {
+    animation-play-state: paused;
+    background-color: blueviolet;
+    color: orange;
+    cursor: pointer;
+    scale: 1.05;
+    rotate: -1deg;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-2:active {
+    background-color: red;
+    transition: none;
 }
 
 @keyframes mover{
